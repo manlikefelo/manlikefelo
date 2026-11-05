@@ -34,7 +34,6 @@ for. All of it documented, all of it built with free tooling on a 16 GB host.
 | Project | What it proves |
 |---------|----------------|
 | **[ruleguard](https://github.com/manlikefelo/ruleguard)** | A 301-test suite across unit, API and Playwright UI layers, with six defects documented from failure to fix |
-| **[sokoni-qa-portfolio](https://github.com/manlikefelo/sokoni-qa-portfolio)** | A Playwright suite, written from the specification, that found all ten defects seeded into an e-commerce app |
 
 ---
 

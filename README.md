@@ -1,15 +1,17 @@
 # Hi, I'm Felix 👋
 
-### **SOC Analyst / Cybersecurity Analyst** · Purple-team home-labber
+### **QA Engineer & Cybersecurity Analyst** · Open to entry-level QA and SOC Analyst roles
 
-I learn security by building it, breaking it, and then catching myself in the act.
+I test software and I secure it. As a QA engineer I've designed test plans and built
+Playwright and API automation for a multi-tenant ERP platform.
 
-I run a self-contained **Active Directory + Wazuh SIEM** home lab where I attack, detect,
-investigate, and respond — every attack I launch, I also write the detection for. All of it
-documented, all of it built with free tooling on a 16 GB host.
+On the security side, I run a self-contained **Active Directory + Wazuh SIEM** home lab where
+I attack, detect, investigate, and respond — every attack I launch, I also write the detection
+for. All of it documented, all of it built with free tooling on a 16 GB host.
 
 <p align="left">
-  <img src="https://img.shields.io/badge/Focus-Blue%20Team%20%2F%20SOC-1f6feb?style=flat-square" alt="Focus: Blue Team / SOC" />
+  <img src="https://img.shields.io/badge/QA-Test%20Automation-0e7490?style=flat-square" alt="QA: Test Automation" />
+  <img src="https://img.shields.io/badge/Security-Blue%20Team%20%2F%20SOC-1f6feb?style=flat-square" alt="Security: Blue Team / SOC" />
   <img src="https://img.shields.io/badge/Also-Offensive%20Security-c9302c?style=flat-square" alt="Also: Offensive Security" />
   <img src="https://img.shields.io/badge/Lab-100%25%20Free%20Tooling-2ea44f?style=flat-square" alt="Lab: 100% Free Tooling" />
 </p>
@@ -20,13 +22,23 @@ documented, all of it built with free tooling on a 16 GB host.
 
 | | |
 |---|---|
+| 🧪 **QA** | Test plan design, manual and exploratory testing, Playwright + TypeScript automation, Postman/Newman API testing, SQL data validation, defect triage |
 | 🔴 **Red** | Active Directory attack paths (Kerberoasting, AS-REP Roasting, DCSync, BloodHound), web-app pentesting against the OWASP Top 10, professional reporting |
 | 🔵 **Blue** | Detection engineering (Sigma + Wazuh), incident response (NIST lifecycle, timeline reconstruction), threat hunting, log analysis |
 | 🟣 **Purple** | I detect the exact attacks I launch — both sides of the same event, in the same lab |
 
 ---
 
-## 📌 Portfolio projects
+## 🧪 QA projects
+
+| Project | What it proves |
+|---------|----------------|
+| **[ruleguard](https://github.com/manlikefelo/ruleguard)** | A 301-test suite across unit, API and Playwright UI layers, with six defects documented from failure to fix |
+| **[sokoni-qa-portfolio](https://github.com/manlikefelo/sokoni-qa-portfolio)** | A Playwright suite, written from the specification, that found all ten defects seeded into an e-commerce app |
+
+---
+
+## 📌 Security projects
 
 > **→ Start here: [cybersecurity-portfolio](https://github.com/manlikefelo/cybersecurity-portfolio)** — the index that ties everything below together.
 
@@ -37,6 +49,10 @@ documented, all of it built with free tooling on a 16 GB host.
 | **[detection-engineering](https://github.com/manlikefelo/detection-engineering)** | 🔵 | Portable Sigma rules + deployed Wazuh rules that catch those attacks — plus a real tuning log |
 | **[webapp-pentest-juiceshop](https://github.com/manlikefelo/webapp-pentest-juiceshop)** | 🔴 | Web application pentest with CVSS-scored findings and a client-ready PDF report |
 | **[ir-threat-hunt](https://github.com/manlikefelo/ir-threat-hunt)** | 🔵 | Incident response using the NIST lifecycle, reconstructed timelines, and proactive threat hunts |
+| **[detection-as-code](https://github.com/manlikefelo/detection-as-code)** | 🟣 | Sigma rules under version control, unit tests, and a CI pipeline that fails on a bad rule |
+| **[adversary-emulation](https://github.com/manlikefelo/adversary-emulation)** | 🟣 | Atomic Red Team runs that measure detection coverage at 4 of 8 techniques, then close a gap |
+| **[soc-automation](https://github.com/manlikefelo/soc-automation)** | 🔵 | A tested Python pipeline that enriches, scores, and tickets Wazuh alerts |
+| **[sigmatest](https://github.com/manlikefelo/sigmatest)** | 🛠️ | A packaged CLI that lints and unit-tests Sigma rules with no live SIEM |
 
 **The thread that runs through them:** I attack the lab in `ad-attack-chain`, write the
 detections in `detection-engineering`, then investigate the resulting alerts in
@@ -101,6 +117,8 @@ links to the PDF.
 
 ## 🛠️ Tools I work with
 
+**QA** &nbsp;`Playwright` · `TypeScript` · `Postman` · `Newman` · `pytest` · `SQL` · `GitHub Actions`
+
 **Blue** &nbsp;`Wazuh` · `Sigma` · `Sysmon` · `MITRE ATT&CK` · `Windows Event Logs`
 
 **Red** &nbsp;`Kali` · `nmap` · `Impacket` · `BloodHound` · `Metasploit` · `Burp Suite` · `ZAP` · `sqlmap` · `ffuf` · `John the Ripper` · `Aircrack-ng`
@@ -121,5 +139,5 @@ can't be detected with what I have, I say so and explain the gap.
 
 ## 📫 Reach me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Felix%20Githure-0a66c2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/felix-githure-2a1b91144)
-[![Email](https://img.shields.io/badge/Email-githure.felix95%40gmail.com-ea4335?style=flat-square&logo=gmail&logoColor=white)](mailto:githure.felix95@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Felix%20Githure-0a66c2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/felix-githure/)
+[![Email](https://img.shields.io/badge/Email-felix.maina095%40gmail.com-ea4335?style=flat-square&logo=gmail&logoColor=white)](mailto:felix.maina095@gmail.com)

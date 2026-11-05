@@ -31,7 +31,7 @@ for. All of it documented, all of it built with free tooling on a 16 GB host.
 
 ## QA projects
 
-| Project | What it proves |
+| Project | What it shows |
 |---------|----------------|
 | **[ruleguard](https://github.com/manlikefelo/ruleguard)** | A 301-test suite across unit, API and Playwright UI layers, with six defects documented from failure to fix |
 
@@ -39,9 +39,9 @@ for. All of it documented, all of it built with free tooling on a 16 GB host.
 
 ## Security projects
 
-> **→ Start here: [cybersecurity-portfolio](https://github.com/manlikefelo/cybersecurity-portfolio)**: the index that ties everything below together.
+> **Start here: [cybersecurity-portfolio](https://github.com/manlikefelo/cybersecurity-portfolio)**: the index that ties everything below together.
 
-| Project | Team | What it proves |
+| Project | Team | What it shows |
 |---------|:----:|----------------|
 | **[security-homelab](https://github.com/manlikefelo/security-homelab)** | Purple | Designing and documenting a full AD + SIEM lab from scratch, on 16 GB of RAM |
 | **[ad-attack-chain](https://github.com/manlikefelo/ad-attack-chain)** | Red | Enumeration → exploitation → Domain Admin, with remediation and an executive summary |
@@ -128,8 +128,8 @@ links to the PDF.
 
 ## How I work
 
-I document the messy bits, where a tool failed, where the evidence has limits, where a
-detection missed and why. Honest work beats tidy work.
+I document what went wrong: where a tool failed, where the evidence has limits, where a
+detection missed and why.
 
 Every attack in my labs ships with its **detection** *and* its **remediation**. If something
 can't be detected with what I have, I say so and explain the gap.

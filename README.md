@@ -138,5 +138,6 @@ can't be detected with what I have, I say so and explain the gap.
 
 ## 📫 Reach me
 
+[![Website](https://img.shields.io/badge/Website-felix--githure.vercel.app-22c55e?style=flat-square)](https://felix-githure.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Felix%20Githure-0a66c2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/felix-githure/)
 [![Email](https://img.shields.io/badge/Email-felix.maina095%40gmail.com-ea4335?style=flat-square&logo=gmail&logoColor=white)](mailto:felix.maina095@gmail.com)
